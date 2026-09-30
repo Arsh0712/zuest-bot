@@ -1,0 +1,23 @@
+{
+  "name": "zuest-bot",
+  "version": "1.0.0",
+  "description": "Zuest — Discord Quest Assistant Bot. Simplify Your Quests, Save Your Time.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "register": "node scripts/register-commands.js",
+    "dev": "node --watch index.js"
+  },
+  "author": "Arsh",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7",
+    "node-fetch": "^2.7.0",
+    "ws": "^8.21.3"
+  },
+  "allowScripts": {
+    "better-sqlite3@11.10.0": true
+  }
+}
